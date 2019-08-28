@@ -1,0 +1,79 @@
+*{ margin: 0px; padding: 0px; font-size: 100%; border: none;}
+ul, a{ text-decoration: none; list-style: none; }
+button, li{ cursor: pointer; }
+
+body{
+	font-family: 'Livvic', sans-serif;
+}
+
+header{
+	width: 100%;
+	background-color: #dd1133;
+}
+
+#menu{
+	width: 100%;
+}
+
+#menu ul{
+	display: flex;
+	justify-content: space-around;
+}
+
+#menu ul li{
+	color: white;
+	padding: 15px;
+	margin: 15px;
+	font-size: 1.5em;
+	border-bottom: 1px solid #dd1133;
+}
+
+#menu ul li:hover{
+	border-bottom: 1px solid white;
+}
+
+#content{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+.produto-view{
+	border: 2px solid #ddd;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 10px;
+	padding: 10px;
+}
+
+.produto-view img{
+	height: 150px;
+	border-bottom: 2px solid #ddd;
+}
+
+.nome-produto{
+	font-size: 1.2em;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.preco-par-produto{
+	color: #0a0;
+}
+
+.produto-view button{
+	margin: 10px;
+	padding: 10px;
+}
+
+footer{
+	background-color: #ddd;
+	color: #555;
+	display: flex;
+	justify-content: space-around;
+	vertical-align: center;
+	padding: 50px 20px;
+}
